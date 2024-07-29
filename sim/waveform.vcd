@@ -1,0 +1,767 @@
+$date
+	Mon Jul 29 15:22:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_rat $end
+$var wire 1 ! o_rs_val_valid $end
+$var wire 16 " o_rs_val [15:0] $end
+$var wire 1 # o_rs_tag_valid $end
+$var wire 2 $ o_rs_tag [1:0] $end
+$var reg 1 % i_clk $end
+$var reg 2 & i_rob_addr [1:0] $end
+$var reg 2 ' i_rob_dst_addr [1:0] $end
+$var reg 1 ( i_rob_valid $end
+$var reg 2 ) i_rs_addr [1:0] $end
+$var reg 1 * i_rs_req $end
+$var reg 1 + i_rstn $end
+$var integer 32 , i [31:0] $end
+$scope module dut $end
+$var wire 1 % i_clk $end
+$var wire 2 - i_rob_addr [1:0] $end
+$var wire 2 . i_rob_dst_addr [1:0] $end
+$var wire 1 ( i_rob_valid $end
+$var wire 2 / i_rs_addr [1:0] $end
+$var wire 1 * i_rs_req $end
+$var wire 1 + i_rstn $end
+$var wire 2 0 o_rs_tag [1:0] $end
+$var wire 1 # o_rs_tag_valid $end
+$var wire 16 1 o_rs_val [15:0] $end
+$var wire 1 ! o_rs_val_valid $end
+$scope begin genblk1[0] $end
+$upscope $end
+$scope begin genblk1[1] $end
+$upscope $end
+$scope begin genblk1[2] $end
+$upscope $end
+$scope begin genblk1[3] $end
+$upscope $end
+$upscope $end
+$scope task rob_wr $end
+$var reg 2 2 rob_addr [1:0] $end
+$var reg 2 3 rob_dst_addr [1:0] $end
+$upscope $end
+$scope task rs_req $end
+$var reg 2 4 rs_addr [1:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 1 5 \physical_reg_file_valid[0] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 2 6 \physical_reg_file[0] [1:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 1 7 \physical_reg_file_valid[1] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 2 8 \physical_reg_file[1] [1:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 1 9 \physical_reg_file_valid[2] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 2 : \physical_reg_file[2] [1:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 1 ; \physical_reg_file_valid[3] $end
+$upscope $end
+$upscope $end
+$scope module tb_rat $end
+$scope module dut $end
+$var reg 2 < \physical_reg_file[3] [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx <
+x;
+bx :
+x9
+bx 8
+x7
+bx 6
+x5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+b0 .
+b0 -
+b100 ,
+1+
+x*
+bx )
+0(
+b0 '
+b0 &
+0%
+bx $
+x#
+bx "
+x!
+$end
+#5
+bx 6
+x5
+bx 8
+x7
+bx :
+x9
+bx <
+x;
+1%
+#10
+0%
+#15
+x;
+bx <
+x9
+bx :
+x7
+bx 8
+x5
+bx 6
+1%
+#20
+0%
+#25
+bx 6
+x5
+bx 8
+x7
+bx :
+x9
+bx <
+x;
+1%
+#30
+0%
+#35
+x;
+bx <
+x9
+bx :
+x7
+bx 8
+x5
+bx 6
+1%
+#40
+0%
+#45
+bx 6
+x5
+bx 8
+x7
+bx :
+x9
+bx <
+x;
+1%
+#50
+0%
+#55
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+05
+b0 6
+1%
+0+
+#60
+0%
+#65
+b0 6
+05
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+1%
+#70
+0%
+#75
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+05
+b0 6
+1%
+#80
+0%
+#85
+b0 6
+05
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+1%
+#90
+0%
+#95
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+05
+b0 6
+1%
+#100
+0%
+#105
+b0 6
+05
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+1%
+1+
+#110
+0%
+#115
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+05
+b0 6
+1%
+#120
+0%
+#125
+b0 6
+05
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+1%
+#130
+0%
+#135
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+05
+b0 6
+b11 &
+b11 -
+1(
+1%
+b0 3
+b11 2
+#140
+0%
+#145
+b11 6
+15
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+0(
+1%
+#150
+0%
+#155
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+15
+b11 6
+1%
+#160
+0%
+#165
+b11 6
+15
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+b1 &
+b1 -
+1(
+1%
+b1 2
+#170
+0%
+#175
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+0(
+1%
+#180
+0%
+#185
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b0 <
+0;
+1%
+#190
+0%
+#195
+0;
+b0 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+b11 '
+b11 .
+b10 &
+b10 -
+1(
+1%
+b11 3
+b10 2
+#200
+0%
+#205
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+0(
+1%
+#210
+0%
+#215
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#220
+0%
+#225
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#230
+0%
+#235
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#240
+0%
+#245
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#250
+0%
+#255
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#260
+0%
+#265
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#270
+0%
+#275
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#280
+0%
+#285
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#290
+0%
+#295
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#300
+0%
+#305
+1#
+0!
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+b1 $
+b1 0
+b101 "
+b101 1
+b0 )
+b0 /
+1*
+1%
+b0 4
+#310
+0%
+#315
+0#
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+0*
+1%
+#320
+0%
+#325
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#330
+0%
+#335
+1!
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+b0 $
+b0 0
+b11 "
+b11 1
+b1 )
+b1 /
+1*
+1%
+b1 4
+#340
+0%
+#345
+0!
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+0*
+1%
+#350
+0%
+#355
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#360
+0%
+#365
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#370
+0%
+#375
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#380
+0%
+#385
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#390
+0%
+#395
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#400
+0%
+#405
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#410
+0%
+#415
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#420
+0%
+#425
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#430
+0%
+#435
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#440
+0%
+#445
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#450
+0%
+#455
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#460
+0%
+#465
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#470
+0%
+#475
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#480
+0%
+#485
+b1 6
+15
+b0 8
+07
+b0 :
+09
+b10 <
+1;
+1%
+#490
+0%
+#495
+1;
+b10 <
+09
+b0 :
+07
+b0 8
+15
+b1 6
+1%
+#500
+0%
