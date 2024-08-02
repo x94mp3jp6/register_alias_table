@@ -1,10 +1,11 @@
 `timescale 1ns/1ns
 
-module tb_rat ();
+module tb_rob ();
 
 reg         i_clk;
 reg         i_rstn;
-reg         i_rob_valid;
+
+reg         i_dq_valid;
 reg [1:0]   i_rob_addr;
 reg [1:0]   i_rob_dst_addr;
 
